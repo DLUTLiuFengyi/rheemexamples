@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="wordcount:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\rheem\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Yo5k7UJi2MwSvdTU6HWhcA8Pom" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\rheem\project\rheemexamples\wordcount\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HDFSApplication">
+    <configuration name="HDFSApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lfy.hdfs.HDFSApplication" />
+      <module name="hdfs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lfy.hdfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleWordCount" />
+      <module name="wordcount" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lfy.wordcount.java.VideoWordCount" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.lfy.wordcount.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.sekrus.wordcount.java.WordCount" />
+      <module name="wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.sekrus.wordcount.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SimpleWordCount" />
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.VideoWordCount" />
+      <item itemvalue="Application.HDFSApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HDFSApplication" />
+        <item itemvalue="Application.VideoWordCount" />
+        <item itemvalue="Application.WordCount" />
+        <item itemvalue="Application.SimpleWordCount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="" />
+      <created>1582189204846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582189204846</updated>
+      <workItem from="1582189209021" duration="1412000" />
+      <workItem from="1582190655900" duration="4307000" />
+      <workItem from="1582201232130" duration="2031000" />
+      <workItem from="1582204796735" duration="140000" />
+      <workItem from="1582204938863" duration="1417000" />
+      <workItem from="1582206473508" duration="1114000" />
+      <workItem from="1582207592062" duration="238000" />
+      <workItem from="1582207833221" duration="1918000" />
+      <workItem from="1582213297167" duration="56000" />
+      <workItem from="1582213357101" duration="1668000" />
+      <workItem from="1582221141093" duration="174000" />
+      <workItem from="1582221317716" duration="113000" />
+      <workItem from="1582221555081" duration="279000" />
+      <workItem from="1582253920238" duration="3911000" />
+      <workItem from="1582349394157" duration="1246000" />
+      <workItem from="1582438605049" duration="5820000" />
+      <workItem from="1582447048551" duration="1629000" />
+      <workItem from="1582448684934" duration="1303000" />
+      <workItem from="1582450178687" duration="876000" />
+      <workItem from="1582452560127" duration="3403000" />
+      <workItem from="1582975437778" duration="4656000" />
+      <workItem from="1583148799363" duration="3097000" />
+      <workItem from="1583155168959" duration="4705000" />
+      <workItem from="1583298525233" duration="1191000" />
+      <workItem from="1583394147037" duration="1198000" />
+      <workItem from="1583400962054" duration="1136000" />
+      <workItem from="1583402558553" duration="2538000" />
+      <workItem from="1583466894471" duration="9635000" />
+      <workItem from="1583502527564" duration="285000" />
+      <workItem from="1583505554582" duration="20000" />
+      <workItem from="1583507817262" duration="822000" />
+      <workItem from="1583596268967" duration="5352000" />
+      <workItem from="1583645798486" duration="5752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="278" key="Github.CreateGistDialog" timestamp="1583651443967">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="496" y="278" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1583651443967" />
+    <state width="1367" height="191" key="GridCell.Tab.0.bottom" timestamp="1583654250088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583654250088" />
+    <state width="1367" height="191" key="GridCell.Tab.0.center" timestamp="1583654250088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583654250088" />
+    <state width="1367" height="191" key="GridCell.Tab.0.left" timestamp="1583654250087">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583654250087" />
+    <state width="1367" height="191" key="GridCell.Tab.0.right" timestamp="1583654250088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583654250088" />
+    <state x="375" y="45" key="com.intellij.ide.util.TipDialog" timestamp="1583645904906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="45" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583645904906" />
+    <state x="103" y="88" key="new project wizard" timestamp="1583650555722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="103" y="88" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583650555722" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>wordcount:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rheemexamples</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.chuusai:shapeless_2.11:2.3.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
