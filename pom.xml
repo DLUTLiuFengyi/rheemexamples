@@ -12,6 +12,8 @@
     <modules>
         <module>wordcount</module>
         <module>hdfs</module>
+        <module>sgd</module>
+        <module>pagerank</module>
     </modules>
 
     <!-- Configure project settings here. -->
@@ -27,6 +29,19 @@
         <hadoop.version>2.7.7</hadoop.version>
         <rheem.version>0.3.0</rheem.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.qcri.rheem</groupId>
+            <artifactId>rheem-graphchi_2.11</artifactId>
+            <version>${rheem.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qcri.rheem</groupId>
+            <artifactId>rheem-sqlite3</artifactId>
+            <version>${rheem.version}</version>
+        </dependency>
+    </dependencies>
 
 <!--    <repositories>-->
 <!--        <repository>-->

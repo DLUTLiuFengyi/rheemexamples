@@ -6,7 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="" />
+    <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +34,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -42,28 +54,30 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\rheem\project\rheemexamples\wordcount\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HDFSApplication">
-    <configuration name="HDFSApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lfy.hdfs.HDFSApplication" />
-      <module name="hdfs" />
+  <component name="RunManager" selected="Application.RunSGD (1)">
+    <configuration name="PageRank" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.sekruse.pagerank.PageRank" />
+      <module name="pagerank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lfy.hdfs.*" />
+          <option name="PATTERN" value="com.github.sekruse.pagerank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,51 +85,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleWordCount" />
+    <configuration name="RunSGD (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunSGD" />
+      <module name="sgd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunSGD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunSGD" />
       <module name="wordcount" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VideoWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lfy.wordcount.java.VideoWordCount" />
+    <configuration name="WordCountIT.testOnJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordcount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lfy.wordcount.java.*" />
+          <option name="PATTERN" value="com.github.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github" />
+      <option name="MAIN_CLASS_NAME" value="com.github.WordCountIT" />
+      <option name="METHOD_NAME" value="testOnJava" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.sekrus.wordcount.java.WordCount" />
+    <configuration name="WordCountIT.testOnJavaToSpark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wordcount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.sekrus.wordcount.java.*" />
+          <option name="PATTERN" value="com.github.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github" />
+      <option name="MAIN_CLASS_NAME" value="com.github.WordCountIT" />
+      <option name="METHOD_NAME" value="testOnJavaToSpark" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SimpleWordCount" />
-      <item itemvalue="Application.WordCount" />
-      <item itemvalue="Application.VideoWordCount" />
-      <item itemvalue="Application.HDFSApplication" />
+      <item itemvalue="Application.RunSGD" />
+      <item itemvalue="Application.RunSGD (1)" />
+      <item itemvalue="Application.PageRank" />
+      <item itemvalue="JUnit.WordCountIT.testOnJavaToSpark" />
+      <item itemvalue="JUnit.WordCountIT.testOnJava" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HDFSApplication" />
-        <item itemvalue="Application.VideoWordCount" />
-        <item itemvalue="Application.WordCount" />
-        <item itemvalue="Application.SimpleWordCount" />
+        <item itemvalue="Application.RunSGD (1)" />
+        <item itemvalue="Application.PageRank" />
+        <item itemvalue="Application.RunSGD" />
+        <item itemvalue="JUnit.WordCountIT.testOnJava" />
+        <item itemvalue="JUnit.WordCountIT.testOnJavaToSpark" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +191,14 @@
       <workItem from="1583507817262" duration="822000" />
       <workItem from="1583596268967" duration="5352000" />
       <workItem from="1583645798486" duration="5752000" />
+      <workItem from="1584973735571" duration="72000" />
+      <workItem from="1584975533621" duration="618000" />
+      <workItem from="1584976926230" duration="211000" />
+      <workItem from="1584981291336" duration="1254000" />
+      <workItem from="1585018629446" duration="6945000" />
+      <workItem from="1585030896516" duration="4496000" />
+      <workItem from="1585325343027" duration="611000" />
+      <workItem from="1585400952190" duration="146000" />
     </task>
     <servers />
   </component>
@@ -169,110 +206,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585401018594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585401018594" />
     <state x="496" y="278" key="Github.CreateGistDialog" timestamp="1583651443967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="496" y="278" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1583651443967" />
-    <state width="1367" height="191" key="GridCell.Tab.0.bottom" timestamp="1583654250088">
+    <state width="1323" height="82" key="GridCell.Tab.0.bottom" timestamp="1585401099459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583654250088" />
-    <state width="1367" height="191" key="GridCell.Tab.0.center" timestamp="1583654250088">
+    <state width="1323" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
+    <state width="1323" height="82" key="GridCell.Tab.0.center" timestamp="1585401099459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583654250088" />
-    <state width="1367" height="191" key="GridCell.Tab.0.left" timestamp="1583654250087">
+    <state width="1323" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
+    <state width="1323" height="82" key="GridCell.Tab.0.left" timestamp="1585401099459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583654250087" />
-    <state width="1367" height="191" key="GridCell.Tab.0.right" timestamp="1583654250088">
+    <state width="1323" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
+    <state width="1323" height="82" key="GridCell.Tab.0.right" timestamp="1585401099459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583654250088" />
-    <state x="375" y="45" key="com.intellij.ide.util.TipDialog" timestamp="1583645904906">
+    <state width="1323" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
+    <state width="1323" height="182" key="GridCell.Tab.1.bottom" timestamp="1585033168301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="45" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583645904906" />
-    <state x="103" y="88" key="new project wizard" timestamp="1583650555722">
+    <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585033168301" />
+    <state width="1323" height="182" key="GridCell.Tab.1.center" timestamp="1585033168300">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="103" y="88" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583650555722" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>wordcount:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>rheemexamples</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.chuusai:shapeless_2.11:2.3.2</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585033168300" />
+    <state width="1323" height="182" key="GridCell.Tab.1.left" timestamp="1585033168300">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585033168300" />
+    <state width="1323" height="182" key="GridCell.Tab.1.right" timestamp="1585033168301">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585033168301" />
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1585018715525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1585018715525" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1585031805157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585031805157" />
+    <state x="375" y="45" key="com.intellij.ide.util.TipDialog" timestamp="1585328403907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="45" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585328403907" />
+    <state x="103" y="88" key="new project wizard" timestamp="1585031505064">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="103" y="88" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585031505064" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585022997111">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585022997111" />
   </component>
 </project>
