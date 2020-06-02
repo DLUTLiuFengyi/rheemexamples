@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/SparkWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/SparkWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/VideoWordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/VideoWordCount.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,9 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="rheemexamples" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,7 +70,7 @@
       <recent name="D:\rheem\project\rheemexamples\wordcount\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunSGD (1)">
+  <component name="RunManager" selected="Application.VideoWordCount">
     <configuration name="PageRank" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.sekruse.pagerank.PageRank" />
       <module name="pagerank" />
@@ -99,34 +98,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountIT.testOnJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SparkWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lfy.wordcount.java.SparkWordCount" />
       <module name="wordcount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.*" />
+          <option name="PATTERN" value="com.github.lfy.wordcount.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github" />
-      <option name="MAIN_CLASS_NAME" value="com.github.WordCountIT" />
-      <option name="METHOD_NAME" value="testOnJava" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountIT.testOnJavaToSpark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VideoWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.lfy.wordcount.java.VideoWordCount" />
       <module name="wordcount" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.*" />
+          <option name="PATTERN" value="com.github.lfy.wordcount.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github" />
-      <option name="MAIN_CLASS_NAME" value="com.github.WordCountIT" />
-      <option name="METHOD_NAME" value="testOnJavaToSpark" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,16 +128,16 @@
       <item itemvalue="Application.RunSGD" />
       <item itemvalue="Application.RunSGD (1)" />
       <item itemvalue="Application.PageRank" />
-      <item itemvalue="JUnit.WordCountIT.testOnJavaToSpark" />
-      <item itemvalue="JUnit.WordCountIT.testOnJava" />
+      <item itemvalue="Application.SparkWordCount" />
+      <item itemvalue="Application.VideoWordCount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VideoWordCount" />
+        <item itemvalue="Application.SparkWordCount" />
         <item itemvalue="Application.RunSGD (1)" />
         <item itemvalue="Application.PageRank" />
         <item itemvalue="Application.RunSGD" />
-        <item itemvalue="JUnit.WordCountIT.testOnJava" />
-        <item itemvalue="JUnit.WordCountIT.testOnJavaToSpark" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +192,11 @@
       <workItem from="1585030896516" duration="4496000" />
       <workItem from="1585325343027" duration="611000" />
       <workItem from="1585400952190" duration="146000" />
+      <workItem from="1587101932682" duration="3811000" />
+      <workItem from="1588443157722" duration="202000" />
+      <workItem from="1590587936054" duration="266000" />
+      <workItem from="1590629591271" duration="8080000" />
+      <workItem from="1590720317349" duration="4336000" />
     </task>
     <servers />
   </component>
@@ -214,38 +212,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="496" y="278" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1583651443967" />
-    <state width="1323" height="82" key="GridCell.Tab.0.bottom" timestamp="1585401099459">
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom" timestamp="1590655484219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
-    <state width="1323" height="82" key="GridCell.Tab.0.center" timestamp="1585401099459">
+    <state width="1323" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590655484219" />
+    <state width="1323" height="216" key="GridCell.Tab.0.center" timestamp="1590655484218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
-    <state width="1323" height="82" key="GridCell.Tab.0.left" timestamp="1585401099459">
+    <state width="1323" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
+    <state width="1323" height="216" key="GridCell.Tab.0.left" timestamp="1590655484218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
-    <state width="1323" height="82" key="GridCell.Tab.0.right" timestamp="1585401099459">
+    <state width="1323" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
+    <state width="1323" height="216" key="GridCell.Tab.0.right" timestamp="1590655484218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585401099459" />
-    <state width="1323" height="182" key="GridCell.Tab.1.bottom" timestamp="1585033168301">
+    <state width="1323" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
+    <state width="1323" height="216" key="GridCell.Tab.1.bottom" timestamp="1590655484218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585033168301" />
-    <state width="1323" height="182" key="GridCell.Tab.1.center" timestamp="1585033168300">
+    <state width="1323" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
+    <state width="1323" height="216" key="GridCell.Tab.1.center" timestamp="1590655484218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585033168300" />
-    <state width="1323" height="182" key="GridCell.Tab.1.left" timestamp="1585033168300">
+    <state width="1323" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
+    <state width="1323" height="216" key="GridCell.Tab.1.left" timestamp="1590655484218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585033168300" />
-    <state width="1323" height="182" key="GridCell.Tab.1.right" timestamp="1585033168301">
+    <state width="1323" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
+    <state width="1323" height="216" key="GridCell.Tab.1.right" timestamp="1590655484218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585033168301" />
+    <state width="1323" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
     <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1585018715525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -254,10 +252,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585031805157" />
-    <state x="375" y="45" key="com.intellij.ide.util.TipDialog" timestamp="1585328403907">
+    <state x="375" y="45" key="com.intellij.ide.util.TipDialog" timestamp="1587101941609">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="45" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585328403907" />
+    <state x="375" y="45" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587101941609" />
     <state x="103" y="88" key="new project wizard" timestamp="1585031505064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -266,5 +264,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585022997111" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

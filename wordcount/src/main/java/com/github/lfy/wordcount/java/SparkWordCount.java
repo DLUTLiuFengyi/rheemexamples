@@ -23,7 +23,7 @@ public class SparkWordCount {
         JavaSparkContext sc = new JavaSparkContext(conf);
         JavaRDD<String> rdd1 = sc.textFile("/home/lfy/data/tmp.txt");
 
-        //压扁
+        //压扁（按空格分词）
         JavaRDD<String> rdd2 = rdd1.flatMap(new FlatMapFunction<String, String>() {
             public Iterator<String> call(String s) throws Exception {
                 List<String> list = new ArrayList<String>();

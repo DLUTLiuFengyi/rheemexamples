@@ -15,8 +15,8 @@ public class VideoWordCount {
 
     public static void main(String[] args) {
 
-        //String inputUrl = "file:/D:/rheem/tmp.txt";
-        String inputUrl = "hdfs://10.141.221.217:9000/firstin/file1.txt";
+        String inputUrl = "file:/D:/rheem/tmp.txt";
+        //String inputUrl = "hdfs://10.141.221.217:9000/firstin/file1.txt";
 
         RheemContext rheemCtx = new RheemContext(new Configuration())
                 .withPlugin(Java.basicPlugin())
