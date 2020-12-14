@@ -1,4 +1,4 @@
-package com.github.lfy.hdfs;
+package com.github.dlut.hdfs.java;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;

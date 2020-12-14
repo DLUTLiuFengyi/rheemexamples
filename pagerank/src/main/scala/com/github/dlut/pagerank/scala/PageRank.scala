@@ -1,4 +1,4 @@
-package com.github.sekruse.pagerank
+package com.github.dlut.pagerank.scala
 
 import org.qcri.rheem.api.{PlanBuilder, _}
 import org.qcri.rheem.api.graph._

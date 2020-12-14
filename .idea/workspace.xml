@@ -57,77 +57,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wordcount_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wordcount_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdfs/target/classes/com/github/lfy/hdfs/HDFSApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdfs/target/classes/core-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdfs/target/classes/hdfs-site.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$parsePlugins$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/ComputeLogisticGradient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/ComputeNorm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/LoopCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/RunSGD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/Transform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/WeightsUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/target/classes/rheem.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/jarpath/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/RheemPlans.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/WordCountIT.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/HadoopWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/dlut/wordcount/java/HadoopWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/SparkWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/dlut/wordcount/java/SparkWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/dlut/wordcount/java/VideoWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/sekrus/wordcount/java/WordCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes.729447980.timestamp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/ComputeLogisticGradient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/ComputeNorm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/LoopCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/META-INF/wordcount.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/RunSGD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/Transform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/WeightsUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/adult.zeros" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans$IncreaseByIterationNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/WordCountIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/HadoopWordCount$IntSumReducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/HadoopWordCount$TokenizerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/HadoopWordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/VideoWordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/sekrus/wordcount/java/WordCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/wordcount-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/src/main/java/com/github/lfy/hdfs/HDFSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/github/dlut/hdfs/java/HDFSApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/src/main/scala/com/github/sekruse/pagerank/PageRank.scala" beforeDir="false" afterPath="$PROJECT_DIR$/pagerank/src/main/scala/com/github/dlut/pagerank/java/PageRank.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/src/main/java/RunSGD.java" beforeDir="false" afterPath="$PROJECT_DIR$/sgd/src/main/java/com/github/dlut/sgd/java/RunSGD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,16 +137,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunSGD (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RunSGD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RunSGD" />
-      <module name="sgd" />
+      <module name="wordcount" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RunSGD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RunSGD" />
-      <module name="wordcount" />
+      <option name="MAIN_CLASS_NAME" value="com.github.dlut.sgd.java.RunSGD" />
+      <module name="sgd" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -329,7 +262,7 @@
       <workItem from="1590720317349" duration="4336000" />
       <workItem from="1607914792990" duration="273000" />
       <workItem from="1607915128773" duration="4443000" />
-      <workItem from="1607932523205" duration="1111000" />
+      <workItem from="1607932523205" duration="2392000" />
     </task>
     <servers />
   </component>
@@ -377,9 +310,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="373" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607932587720" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1607934202337">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1607934225021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607934202337" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607934225021" />
   </component>
 </project>

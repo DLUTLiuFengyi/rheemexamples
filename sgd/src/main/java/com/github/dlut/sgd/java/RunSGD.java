@@ -1,16 +1,15 @@
+package com.github.dlut.sgd.java;
+
 import org.qcri.rheem.api.DataQuantaBuilder;
 import org.qcri.rheem.api.JavaPlanBuilder;
 import org.qcri.rheem.basic.data.Tuple2;
 import org.qcri.rheem.core.api.RheemContext;
 import org.qcri.rheem.core.function.ExecutionContext;
 import org.qcri.rheem.core.function.FunctionDescriptor;
-import org.qcri.rheem.core.types.DataSetType;
 import org.qcri.rheem.core.util.RheemCollections;
 import org.qcri.rheem.core.util.Tuple;
 import org.qcri.rheem.java.Java;
 import org.qcri.rheem.spark.Spark;
-import org.qcri.rheem.spark.operators.SparkBernoulliSampleOperator;
-import org.qcri.rheem.spark.operators.SparkRandomPartitionSampleOperator;
 
 import java.io.File;
 import java.net.MalformedURLException;
