@@ -5,12 +5,129 @@
       <artifact name="wordcount:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pagerank" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:wordcount" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wordcount_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wordcount_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/SparkWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/SparkWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/VideoWordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/VideoWordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/target/classes/com/github/lfy/hdfs/HDFSApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/target/classes/core-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/target/classes/hdfs-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$$anonfun$parsePlugins$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/target/classes/com/github/sekruse/pagerank/PageRank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/ComputeLogisticGradient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/ComputeNorm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/LoopCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/RunSGD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/Transform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/WeightsUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/target/classes/rheem.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/jarpath/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/RheemPlans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/WordCountIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/HadoopWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/dlut/wordcount/java/HadoopWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/SparkWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/dlut/wordcount/java/SparkWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/src/main/java/com/github/dlut/wordcount/java/VideoWordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/java/com/github/sekrus/wordcount/java/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes.729447980.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/ComputeLogisticGradient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/ComputeNorm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/LoopCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/META-INF/wordcount.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/RunSGD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/Transform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/WeightsUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/adult.zeros" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans$IncreaseByIterationNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/RheemPlans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/WordCountIT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/HadoopWordCount$IntSumReducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/HadoopWordCount$TokenizerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/HadoopWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/SparkWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/lfy/wordcount/java/VideoWordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/classes/com/github/sekrus/wordcount/java/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/target/wordcount-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +139,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="rheemexamples" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +153,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenrepository" />
+        <option name="mavenHome" value="D:\idea\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\rheem\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -47,30 +163,34 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Yo5k7UJi2MwSvdTU6HWhcA8Pom" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\rheem\project\rheemexamples\wordcount\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VideoWordCount">
+  <component name="RunManager" selected="Application.wordcount">
     <configuration name="PageRank" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.sekruse.pagerank.PageRank" />
       <module name="pagerank" />
@@ -124,7 +244,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wordcount" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.github.dlut.wordcount.java.WordCount" />
+      <module name="wordcount" />
+      <option name="PROGRAM_PARAMETERS" value="java,spark file:\D:\2020project\rheem\essay.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.wordcount" />
       <item itemvalue="Application.RunSGD" />
       <item itemvalue="Application.RunSGD (1)" />
       <item itemvalue="Application.PageRank" />
@@ -141,6 +270,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -197,83 +327,59 @@
       <workItem from="1590587936054" duration="266000" />
       <workItem from="1590629591271" duration="8080000" />
       <workItem from="1590720317349" duration="4336000" />
+      <workItem from="1607914792990" duration="273000" />
+      <workItem from="1607915128773" duration="4443000" />
+      <workItem from="1607932523205" duration="1111000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585401018594">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="223" y="60" width="1089" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607918022189">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585401018594" />
-    <state x="496" y="278" key="Github.CreateGistDialog" timestamp="1583651443967">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="223" y="60" width="1089" height="764" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607918022189" />
+    <state x="520" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1607917874367">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="278" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1583651443967" />
-    <state width="1323" height="216" key="GridCell.Tab.0.bottom" timestamp="1590655484219">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="520" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1607917874367" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607915048728">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590655484219" />
-    <state width="1323" height="216" key="GridCell.Tab.0.center" timestamp="1590655484218">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607915048728" />
+    <state width="1493" height="373" key="GridCell.Tab.0.bottom" timestamp="1607932587736">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
-    <state width="1323" height="216" key="GridCell.Tab.0.left" timestamp="1590655484218">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="373" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607932587736" />
+    <state width="1493" height="373" key="GridCell.Tab.0.center" timestamp="1607932587720">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
-    <state width="1323" height="216" key="GridCell.Tab.0.right" timestamp="1590655484218">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="373" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607932587720" />
+    <state width="1493" height="373" key="GridCell.Tab.0.left" timestamp="1607932587720">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
-    <state width="1323" height="216" key="GridCell.Tab.1.bottom" timestamp="1590655484218">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="373" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607932587720" />
+    <state width="1493" height="373" key="GridCell.Tab.0.right" timestamp="1607932587720">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
-    <state width="1323" height="216" key="GridCell.Tab.1.center" timestamp="1590655484218">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1493" height="373" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607932587720" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1607934202337">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1323" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
-    <state width="1323" height="216" key="GridCell.Tab.1.left" timestamp="1590655484218">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
-    <state width="1323" height="216" key="GridCell.Tab.1.right" timestamp="1590655484218">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590655484218" />
-    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1585018715525">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1585018715525" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1585031805157">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585031805157" />
-    <state x="375" y="45" key="com.intellij.ide.util.TipDialog" timestamp="1587101941609">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="375" y="45" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587101941609" />
-    <state x="103" y="88" key="new project wizard" timestamp="1585031505064">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="103" y="88" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585031505064" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585022997111">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585022997111" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/wordcount/src/main/java/com/github/lfy/wordcount/java/VideoWordCount.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607934202337" />
   </component>
 </project>

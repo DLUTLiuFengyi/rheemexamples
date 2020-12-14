@@ -30,19 +30,6 @@
         <rheem.version>0.3.0</rheem.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.qcri.rheem</groupId>
-            <artifactId>rheem-graphchi_2.11</artifactId>
-            <version>${rheem.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.qcri.rheem</groupId>
-            <artifactId>rheem-sqlite3</artifactId>
-            <version>${rheem.version}</version>
-        </dependency>
-    </dependencies>
-
 <!--    <repositories>-->
 <!--        <repository>-->
 <!--            <id>sonatype</id>-->
