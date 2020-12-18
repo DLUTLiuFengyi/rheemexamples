@@ -33,8 +33,9 @@ class PageRank(configuration: Configuration, plugins: Plugin*) {
     val edges = planBuilder
       .readTextFile(inputUrl).withName("Load file")
       .filter(!_.startsWith("#"), selectivity = 1.0).withName("Filter comments")
-      .map(PageRank.parseTriple).withName("Parse triples")
-      .map { case (s, p, o) => (s, o) }.withName("Discard predicate")
+      .map(PageRank.parseLiveJournalSocialCase).withName("Parse Zhihu case")
+//      .map(PageRank.parseTriple).withName("Parse triples")
+//      .map { case (s, p, o) => (s, o) }.withName("Discard predicate")
 
     // Create vertex IDs.
     val vertexIds = edges
@@ -73,18 +74,16 @@ class PageRank(configuration: Configuration, plugins: Plugin*) {
 object PageRank {
 
   def main(args: Array[String]) {
-//    // Parse args.
-//    if (args.isEmpty) {
-//      println("Usage: <main class> <plugin(,plugin)*> <input file> <#iterations>")
-//      sys.exit(1)
-//    }
-//    val plugins = parsePlugins(args(0))
-//    val inputFile = args(1)
-//    val numIterations = args(2).toInt
-    val plugins = parsePlugins("java,graphchi")
-    val inputFile = "file:\\E:\\jarTemp\\category_labels_en.ttl"
-    val numIterations = "1".toInt
-    System.out.println("what is this: "+numIterations)
+    // Parse args.
+    if (args.isEmpty) {
+      println("Usage: <main class> <plugin(,plugin)*> <input file> <#iterations>")
+      sys.exit(1)
+    }
+    val begin = System.currentTimeMillis()
+
+    val plugins = parsePlugins(args(0))
+    val inputFile = args(1)
+    val numIterations = args(2).toInt
 
     // Set up our wordcount app.
     val configuration = new Configuration
@@ -92,12 +91,12 @@ object PageRank {
 
     // Run the wordcount.
     val pageRanks = pageRank(inputFile, numIterations)
+    val result = pageRanks.toSeq.sortBy(-_._2)
 
-    // Print results.
-    println(s"Found ${pageRanks.size} pageRanks:")
-    pageRanks.toSeq.sortBy(-_._2)
-    pageRanks.take(10).foreach(pr => println(f"${pr._1} has a page rank of ${pr._2 % .3f}"))
-    if (pageRanks.size > 10) println(s"${pageRanks.size - 10} more...")
+    val end = System.currentTimeMillis()
+    println("Computation using time: " + (end - begin) + "ms")
+
+    println(sumOfRanks(result))
   }
 
   /**
@@ -137,4 +136,41 @@ object PageRank {
       raw.substring(secondSpacePos + 1, stopPos))
   }
 
+  /**
+   * 解析知乎粉丝关注case的数据集
+   * id, sourceNode, endNode, ...
+   * 最后返回结果格式是 (sourceNode, endNode)
+   * @param raw
+   * @return
+   */
+  def parseZhihuFansCase(raw: String): (String, String) = {
+    val firstSpacePos = raw.indexOf(',')
+    val secondSpacePos = raw.indexOf(',', firstSpacePos + 1)
+    val thirdSpacePos = raw.indexOf(',', secondSpacePos + 1)
+
+    (
+      raw.substring(firstSpacePos + 1, secondSpacePos),
+      raw.substring(secondSpacePos + 1, thirdSpacePos))
+  }
+
+  def parseLiveJournalSocialCase(raw: String): (String, String) = {
+    val items = raw.split("\t")
+
+    (
+      items(0),
+      items(1))
+  }
+
+  /**
+   * 计算每一次迭代里所有节点的page rank值之和
+   * @param pageRanks
+   * @return
+   */
+  def sumOfRanks(pageRanks: Iterable[(String, java.lang.Float)]): Float = {
+    var rankSum = 0.0f
+    pageRanks.foreach(pr => {
+      rankSum  = rankSum + pr._2
+    })
+    rankSum
+  }
 }
