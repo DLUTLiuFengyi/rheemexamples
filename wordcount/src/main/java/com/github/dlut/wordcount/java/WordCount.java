@@ -10,6 +10,9 @@ import org.qcri.rheem.core.plugin.Plugin;
 import org.qcri.rheem.java.Java;
 import org.qcri.rheem.spark.Spark;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -105,7 +108,8 @@ public class WordCount {
 
         Plugin[] plugins = parsePlugins(args[0]);
         String inputUrl = args[1];
-        ProbabilisticDoubleInterval wordsPerLine = args.length > 2 ? parseWordsPerLine(args[2]) : null;
+//        ProbabilisticDoubleInterval wordsPerLine = args.length > 2 ? parseWordsPerLine(args[2]) : null;
+        ProbabilisticDoubleInterval wordsPerLine = args.length > 2 ? null : null;
 
         // Set up our wordcount app.
         Configuration configuration = new Configuration();
@@ -128,6 +132,18 @@ public class WordCount {
 //        }
         long end = System.currentTimeMillis();
         System.out.println("Using time: " + (end-begin) + "ms");
+
+        try {
+            File file = new File(args[2]);
+            FileWriter fileWriter  = new FileWriter(file, true);
+            BufferedWriter out = new BufferedWriter(fileWriter);
+            out.write( "Datasets: " + args[1] + "\n"
+                    + "Computation using time: " + (end - begin) + "ms" + "\n");
+            out.close();
+            fileWriter.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 

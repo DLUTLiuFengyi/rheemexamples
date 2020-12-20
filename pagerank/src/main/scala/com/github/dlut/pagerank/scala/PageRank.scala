@@ -9,6 +9,10 @@ import org.qcri.rheem.graphchi.GraphChi
 import org.qcri.rheem.java.Java
 import org.qcri.rheem.spark.Spark
 
+import java.io.BufferedWriter
+import java.io.File
+import java.io.FileWriter
+
 /**
  * This is a Rheem implementation of the PageRank algorithm with some preprocessing.
  */
@@ -33,7 +37,8 @@ class PageRank(configuration: Configuration, plugins: Plugin*) {
     val edges = planBuilder
       .readTextFile(inputUrl).withName("Load file")
       .filter(!_.startsWith("#"), selectivity = 1.0).withName("Filter comments")
-      .map(PageRank.parseLiveJournalSocialCase).withName("Parse Zhihu case")
+//      .map(PageRank.parseZhihuFansCase).withName("Parse Zhihu case")
+      .map(PageRank.parseLiveJournalSocialCase).withName("Parse Live Journal case")
 //      .map(PageRank.parseTriple).withName("Parse triples")
 //      .map { case (s, p, o) => (s, o) }.withName("Discard predicate")
 
@@ -95,8 +100,16 @@ object PageRank {
 
     val end = System.currentTimeMillis()
     println("Computation using time: " + (end - begin) + "ms")
-
     println(sumOfRanks(result))
+
+    val file: File = new File(args(3))
+    val fileWriter: FileWriter = new FileWriter(file, true)
+    val out: BufferedWriter = new BufferedWriter(fileWriter)
+    out.write( "Datasets: " + args(1) + "\n"
+      + "Iteration times: " + args(2) + "\n"
+      + "Computation using time: " + (end - begin) + "ms" + "\n")
+    out.close()
+    fileWriter.close()
   }
 
   /**
@@ -153,6 +166,11 @@ object PageRank {
       raw.substring(secondSpacePos + 1, thirdSpacePos))
   }
 
+  /**
+   * 解析Stanford 大规模复杂网络组提供的Live Journal Social数据集
+   * @param raw
+   * @return
+   */
   def parseLiveJournalSocialCase(raw: String): (String, String) = {
     val items = raw.split("\t")
 
