@@ -10,9 +10,7 @@ import org.qcri.rheem.core.plugin.Plugin;
 import org.qcri.rheem.java.Java;
 import org.qcri.rheem.spark.Spark;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
@@ -99,11 +97,14 @@ public class WordCount {
                 .collect();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             System.out.println("Usage: <main class> <plugin(,plugin)*> <input file> [<words per line a..b>]");
             System.exit(1);
         }
+        /**
+         * <plugin(,plugin)*> <input file> <result path> <properties path>
+         */
         long begin = System.currentTimeMillis();
 
         Plugin[] plugins = parsePlugins(args[0]);
@@ -113,6 +114,10 @@ public class WordCount {
 
         // Set up our wordcount app.
         Configuration configuration = new Configuration();
+        if (args.length >= 4) {
+            InputStream propertiesStream = new FileInputStream(new File(args[3]));
+            configuration.load(propertiesStream);
+        }
         WordCount wordCount = new WordCount(configuration, plugins);
 
         // Run the wordcount.
@@ -133,16 +138,19 @@ public class WordCount {
         long end = System.currentTimeMillis();
         System.out.println("Using time: " + (end-begin) + "ms");
 
-        try {
-            File file = new File(args[2]);
-            FileWriter fileWriter  = new FileWriter(file, true);
-            BufferedWriter out = new BufferedWriter(fileWriter);
-            out.write( "Datasets: " + args[1] + "\n"
-                    + "Computation using time: " + (end - begin) + "ms" + "\n");
-            out.close();
-            fileWriter.close();
-        } catch (Exception e) {
-            e.printStackTrace();
+        if (args.length >= 3) {
+            try {
+                String resultPath = args[2];
+                File file = new File(resultPath);
+                FileWriter fileWriter  = new FileWriter(file, true);
+                BufferedWriter out = new BufferedWriter(fileWriter);
+                out.write( "Datasets: " + args[1] + "\n"
+                        + "Computation using time: " + (end - begin) + "ms" + "\n");
+                out.close();
+                fileWriter.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 

@@ -8,10 +8,7 @@ import org.qcri.rheem.core.plugin.Plugin
 import org.qcri.rheem.graphchi.GraphChi
 import org.qcri.rheem.java.Java
 import org.qcri.rheem.spark.Spark
-
-import java.io.BufferedWriter
-import java.io.File
-import java.io.FileWriter
+import java.io.{BufferedWriter, File, FileInputStream, FileWriter, InputStream}
 
 /**
  * This is a Rheem implementation of the PageRank algorithm with some preprocessing.
@@ -84,6 +81,10 @@ object PageRank {
       println("Usage: <main class> <plugin(,plugin)*> <input file> <#iterations>")
       sys.exit(1)
     }
+
+    /**
+     * <plugin(,plugin)*> <input file> <iterations> <#result path> <#properties path>
+     */
     val begin = System.currentTimeMillis()
 
     val plugins = parsePlugins(args(0))
@@ -92,6 +93,10 @@ object PageRank {
 
     // Set up our wordcount app.
     val configuration = new Configuration
+    if (args.length >= 5) {
+      val propertiesStream = new FileInputStream(new File(args(4)))
+      configuration.load(propertiesStream)
+    }
     val pageRank = new PageRank(configuration, plugins: _*)
 
     // Run the wordcount.
@@ -102,14 +107,16 @@ object PageRank {
     println("Computation using time: " + (end - begin) + "ms")
     println(sumOfRanks(result))
 
-    val file: File = new File(args(3))
-    val fileWriter: FileWriter = new FileWriter(file, true)
-    val out: BufferedWriter = new BufferedWriter(fileWriter)
-    out.write( "Datasets: " + args(1) + "\n"
-      + "Iteration times: " + args(2) + "\n"
-      + "Computation using time: " + (end - begin) + "ms" + "\n")
-    out.close()
-    fileWriter.close()
+    if (args.length >= 4) {
+      val file: File = new File(args(3))
+      val fileWriter: FileWriter = new FileWriter(file, true)
+      val out: BufferedWriter = new BufferedWriter(fileWriter)
+      out.write( "Datasets: " + args(1) + "\n"
+        + "Iteration times: " + args(2) + "\n"
+        + "Computation using time: " + (end - begin) + "ms" + "\n")
+      out.close()
+      fileWriter.close()
+    }
   }
 
   /**
