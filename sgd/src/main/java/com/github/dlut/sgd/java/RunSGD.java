@@ -23,7 +23,7 @@ import java.util.List;
 public class RunSGD {
 
     // Default parameters.
-    static String relativePath = "E:\\jarTemp\\adult.zeros";
+    static String relativePath = "D:/2020project/rheem/adult.zeros";
     static int datasetSize  = 100827;
     static int features = 123;
 
