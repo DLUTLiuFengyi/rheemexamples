@@ -24,9 +24,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <scala.version>2.11.8</scala.version>
         <scala.compat.version>2.11</scala.compat.version>
-        <spark.version>2.4.5</spark.version>
+        <spark.version>1.6.1</spark.version>
         <!-- This Hadoop version is enforced by Spark in the version that is deployed in the Maven repository via code signing. -->
-        <hadoop.version>2.7.7</hadoop.version>
+        <hadoop.version>2.3.0</hadoop.version>
         <rheem.version>0.3.0</rheem.version>
     </properties>
 
