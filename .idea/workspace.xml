@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="pgrpo" />
+      <artifact name="ld" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -57,9 +57,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pgrpo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wcpro.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rheemexamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rheemexamples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pagerank/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/src/main/pgpro/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sgd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sgd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/src/main/wcpro/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +94,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://scala-decompiled/JavaSparkContext.decompiled.java" root0="SKIP_HIGHLIGHTING" />
-    <setting file="dummy://scala-decompiled/JavaSparkContext.decompiled.java" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="JupyterTrust" id="5622d408-de29-4de0-9805-c4f081b6021f" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -95,6 +103,9 @@
         <option name="userSettingsFile" value="D:\rheem\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -114,10 +125,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rheem-examples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hybrid_java_scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -130,7 +142,7 @@
       <recent name="D:\rheem\project\rheemexamples\wordcount\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PageRank">
+  <component name="RunManager" selected="Application.london">
     <configuration name="PageRank" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.github.dlut.pagerank.scala.PageRank" />
       <module name="pagerank" />
@@ -185,6 +197,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="london" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.github.dlut.london.SparkJavaTask" />
+      <module name="london" />
+      <option name="PROGRAM_PARAMETERS" value="java hdfs://10.176.24.160:9820/tzw/london_crime/london_crime_0.45g.csv" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pagerank" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.github.dlut.pagerank.scala.PageRank" />
       <module name="pagerank" />
@@ -201,13 +221,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wc" type="Remote">
+      <module name="wordcount" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="10.176.24.160" />
+      <option name="PORT" value="18077" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.london" />
       <item itemvalue="Application.wordcount" />
       <item itemvalue="Application.pagerank" />
       <item itemvalue="Application.RunSGD" />
       <item itemvalue="Application.PageRank" />
       <item itemvalue="Application.SparkWordCount" />
       <item itemvalue="Application.VideoWordCount" />
+      <item itemvalue="Remote.wc" />
     </list>
     <recent_temporary>
       <list>
@@ -295,6 +340,16 @@
       <workItem from="1609056881473" duration="1054000" />
       <workItem from="1609207477953" duration="230000" />
       <workItem from="1609295281486" duration="14145000" />
+      <workItem from="1609910317515" duration="9565000" />
+      <workItem from="1610193031047" duration="1516000" />
+      <workItem from="1610271886541" duration="1570000" />
+      <workItem from="1610277337183" duration="1440000" />
+      <workItem from="1610457334160" duration="793000" />
+      <workItem from="1610588818143" duration="1324000" />
+      <workItem from="1610604768545" duration="604000" />
+      <workItem from="1610693419672" duration="2007000" />
+      <workItem from="1611039230068" duration="11700000" />
+      <workItem from="1611063087392" duration="6488000" />
     </task>
     <servers />
   </component>
@@ -323,41 +378,45 @@
     </state>
     <state x="552" y="218" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608730852925" />
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608280073100" />
-    <state x="195" y="105" width="1089" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609317319795">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="179" y="250" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611068934146">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="195" y="105" width="1089" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609317319795" />
-    <state x="179" y="302" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608285913506" />
-    <state x="520" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1609306282871">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="179" y="250" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611068934146" />
+    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611070579828">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="520" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1609306282871" />
-    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608286068224" />
-    <state x="756" y="186" key="FileChooserDialogImpl" timestamp="1609310237570">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611070579828" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611067377272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611067377272" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1609920730326">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="756" y="186" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609310237570" />
-    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608107541262" />
-    <state width="1493" height="415" key="GridCell.Tab.0.bottom" timestamp="1609328541548">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609920730326" />
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1611070291158">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608285331116" />
-    <state width="1493" height="415" key="GridCell.Tab.0.center" timestamp="1609328541548">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1611070291158">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608285331116" />
-    <state width="1493" height="415" key="GridCell.Tab.0.left" timestamp="1609328541548">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1611070291158">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608285331116" />
-    <state width="1493" height="415" key="GridCell.Tab.0.right" timestamp="1609328541548">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1611070291158">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608285331116" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1608964052595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -374,10 +433,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608964052595" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1609310239623">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="338" y="0" key="SettingsEditor" timestamp="1611070595877">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609310239623" />
-    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608286092967" />
+    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611070595877" />
+    <state x="334" y="180" key="new project wizard" timestamp="1611045557756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611045557756" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611068836747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611068836747" />
   </component>
 </project>

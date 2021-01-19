@@ -9,6 +9,7 @@
         <module name="hdfs" />
         <module name="wordcount" />
         <module name="sgd" />
+        <module name="london" />
         <module name="pagerank" />
       </profile>
     </annotationProcessing>
