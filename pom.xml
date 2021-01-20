@@ -28,7 +28,7 @@
         <spark.version>2.4.5</spark.version>
         <!-- This Hadoop version is enforced by Spark in the version that is deployed in the Maven repository via code signing. -->
 <!--        <hadoop.version>2.2.0</hadoop.version>-->
-        <hadoop.version>2.7.0</hadoop.version>
+<!--        <hadoop.version>2.7.0</hadoop.version>-->
         <rheem.version>0.3.0</rheem.version>
     </properties>
 

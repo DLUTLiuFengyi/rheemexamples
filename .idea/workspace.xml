@@ -57,21 +57,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pgrpo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wcpro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rheemexamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rheemexamples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ld.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pagerank/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagerank/src/main/pgpro/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hdfs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfs/src/main/java/com/github/dlut/hdfs/java/HDFSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/github/dlut/hdfs/java/HDFSApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/london/src/main/java/com/github/dlut/london/RheemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/london/src/main/java/com/github/dlut/london/RheemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/london/src/main/ld/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sgd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sgd/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordcount/src/main/wcpro/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,15 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -349,7 +339,8 @@
       <workItem from="1610604768545" duration="604000" />
       <workItem from="1610693419672" duration="2007000" />
       <workItem from="1611039230068" duration="11700000" />
-      <workItem from="1611063087392" duration="6488000" />
+      <workItem from="1611063087392" duration="7022000" />
+      <workItem from="1611106939544" duration="7987000" />
     </task>
     <servers />
   </component>
@@ -383,11 +374,11 @@
     </state>
     <state x="195" y="105" width="1089" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609317319795" />
     <state x="179" y="250" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611068934146" />
-    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611070579828">
+    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611128825015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="520" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1609306282871" />
-    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611070579828" />
+    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611128825015" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611067377272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -397,26 +388,26 @@
     </state>
     <state x="756" y="186" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609310237570" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609920730326" />
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1611070291158">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1611129042559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1611070291158">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1611129042559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1611070291158">
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1611129042559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1611070291158">
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1611129042559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611070291158" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1608964052595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -433,11 +424,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608964052595" />
-    <state x="338" y="0" key="SettingsEditor" timestamp="1611070595877">
+    <state x="338" y="0" key="SettingsEditor" timestamp="1611128841614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609310239623" />
-    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611070595877" />
+    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611128841614" />
     <state x="334" y="180" key="new project wizard" timestamp="1611045557756">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -68,7 +68,7 @@ public class RheemTest {
                     .readTextFile(inputUrl).withName("Load file")
 
                     .map(line -> line.split(","))
-                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
+//                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
                     .withName("Map - split")
 
                     .map(record -> {
@@ -83,15 +83,15 @@ public class RheemTest {
                         }
                         return record;
                     })
-                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
+//                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
                     .withName("Map - dict")
 
                     .filter(record -> !record[4].equals("0") && !record[4].equals("1"))
-                    .withSelectivity(0.99, 0.99, 0.99)
+//                    .withSelectivity(0.99, 0.99, 0.99)
                     .withName("Filter")
 
                     .sort(record -> new Integer(record[5]) * new Integer(record[6]))
-                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
+//                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
                     .withName("Sort")
 
                     .map(record -> {
@@ -100,7 +100,7 @@ public class RheemTest {
                         return new Tuple2<>(String.valueOf((new Integer(record[6]) - 1) / 3 + 1), result);
 //                        result.add(String.valueOf((new Integer(record[6]) - 1) / 3 + 1));
                     })
-                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
+//                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
                     .withName("Map - toList")
 
                     .reduceByKey(
@@ -116,7 +116,7 @@ public class RheemTest {
                                         Integer.parseInt(record2.getField1().get(7))));
                                 return new Tuple2<>(record1.getField0(), result);
                     })
-                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
+//                    .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
                     .withName("ReduceByKey")
 
                     .collect();
