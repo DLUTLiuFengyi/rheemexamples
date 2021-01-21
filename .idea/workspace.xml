@@ -58,12 +58,15 @@
   <component name="ChangeListManager">
     <list default="true" id="40c9a597-dde7-4e9e-bd45-cd15f011dd97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ld.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdfs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hdfs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hdfs/src/main/java/com/github/dlut/hdfs/java/HDFSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdfs/src/main/java/com/github/dlut/hdfs/java/HDFSApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/london/dependency-reduced-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/london/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/london/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/london/src/main/java/com/github/dlut/london/RheemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/london/src/main/java/com/github/dlut/london/RheemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/london/src/main/ld/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pagerank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pagerank/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordcount/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wordcount/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +195,8 @@
     <configuration name="london" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.github.dlut.london.SparkJavaTask" />
       <module name="london" />
-      <option name="PROGRAM_PARAMETERS" value="java hdfs://10.176.24.160:9820/tzw/london_crime/london_crime_0.45g.csv" />
+      <option name="PROGRAM_PARAMETERS" value="spark,java file:\D:\2020project\london\london_crime_0.45g.csv" />
+      <option name="VM_PARAMETERS" value="-Xmx50g" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -341,6 +345,8 @@
       <workItem from="1611039230068" duration="11700000" />
       <workItem from="1611063087392" duration="7022000" />
       <workItem from="1611106939544" duration="7987000" />
+      <workItem from="1611193370894" duration="12130000" />
+      <workItem from="1611252829281" duration="3573000" />
     </task>
     <servers />
   </component>
@@ -369,16 +375,16 @@
     </state>
     <state x="552" y="218" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608730852925" />
     <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608280073100" />
-    <state x="179" y="250" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611068934146">
+    <state x="179" y="250" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611226301495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="195" y="105" width="1089" height="719" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609317319795" />
-    <state x="179" y="250" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611068934146" />
-    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611128825015">
+    <state x="179" y="250" width="1092" height="790" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611226301495" />
+    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611255080999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="520" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1609306282871" />
-    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611128825015" />
+    <state x="650" y="255" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611255080999" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1611067377272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -388,26 +394,26 @@
     </state>
     <state x="756" y="186" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609310237570" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609920730326" />
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1611129042559">
+    <state width="1877" height="412" key="GridCell.Tab.0.bottom" timestamp="1611258570611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1611129042559">
+    <state width="1877" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611258570611" />
+    <state width="1877" height="412" key="GridCell.Tab.0.center" timestamp="1611258570610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1611129042559">
+    <state width="1877" height="412" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611258570610" />
+    <state width="1877" height="412" key="GridCell.Tab.0.left" timestamp="1611258570610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1611129042559">
+    <state width="1877" height="412" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611258570610" />
+    <state width="1877" height="412" key="GridCell.Tab.0.right" timestamp="1611258570611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="415" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609328541548" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611129042559" />
+    <state width="1877" height="412" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611258570611" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1608964052595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -424,18 +430,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608964052595" />
-    <state x="338" y="0" key="SettingsEditor" timestamp="1611128841614">
+    <state x="338" y="0" key="SettingsEditor" timestamp="1611255090837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1609310239623" />
-    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611128841614" />
-    <state x="334" y="180" key="new project wizard" timestamp="1611045557756">
+    <state x="338" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611255090837" />
+    <state x="334" y="180" key="new project wizard" timestamp="1611195531142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611045557756" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611068836747">
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611195531142" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611258592375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611068836747" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611258592375" />
   </component>
 </project>

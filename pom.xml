@@ -26,6 +26,7 @@
         <scala.version>2.11.8</scala.version>
         <scala.compat.version>2.11</scala.compat.version>
         <spark.version>2.4.5</spark.version>
+<!--        <spark.version>2.4.5</spark.version>-->
         <!-- This Hadoop version is enforced by Spark in the version that is deployed in the Maven repository via code signing. -->
 <!--        <hadoop.version>2.2.0</hadoop.version>-->
 <!--        <hadoop.version>2.7.0</hadoop.version>-->
