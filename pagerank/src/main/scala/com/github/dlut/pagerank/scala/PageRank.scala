@@ -34,8 +34,9 @@ class PageRank(configuration: Configuration, plugins: Plugin*) {
     val edges = planBuilder
       .readTextFile(inputUrl).withName("Load file")
       .filter(!_.startsWith("#"), selectivity = 1.0).withName("Filter comments")
+      .map(PageRank.parseNewCase).withName("Parse new case")
 //      .map(PageRank.parseZhihuFansCase).withName("Parse Zhihu case")
-      .map(PageRank.parseLiveJournalSocialCase).withName("Parse Live Journal case")
+//      .map(PageRank.parseLiveJournalSocialCase).withName("Parse Live Journal case")
 //      .map(PageRank.parseTriple).withName("Parse triples")
 //      .map { case (s, p, o) => (s, o) }.withName("Discard predicate")
 
@@ -102,10 +103,11 @@ object PageRank {
     // Run the wordcount.
     val pageRanks = pageRank(inputFile, numIterations)
     val result = pageRanks.toSeq.sortBy(-_._2)
+//    val result = pageRanks.toSeq
 
     val end = System.currentTimeMillis()
     println("Computation using time: " + (end - begin) + "ms")
-    println(sumOfRanks(result))
+//    println(sumOfRanks(result))
 
     if (args.length >= 4) {
       val file: File = new File(args(3))
@@ -171,6 +173,19 @@ object PageRank {
     (
       raw.substring(firstSpacePos + 1, secondSpacePos),
       raw.substring(secondSpacePos + 1, thirdSpacePos))
+  }
+
+  /**
+   * 解析新的pagerank数据集
+   * @param raw
+   * @return
+   */
+  def parseNewCase(raw: String): (String, String) = {
+    val items = raw.split(",")
+
+    (
+      items(0),
+      items(1))
   }
 
   /**

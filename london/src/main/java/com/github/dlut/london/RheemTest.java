@@ -69,7 +69,7 @@ public class RheemTest {
 
                     .map(line -> line.split(","))
                     .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
-                    .withName("Map - split")
+                    .withName("Map - split").withTargetPlatform(Spark.platform())
 
                     .map(record -> {
                         try {
@@ -84,15 +84,15 @@ public class RheemTest {
                         return record;
                     })
                     .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
-                    .withName("Map - dict")
+                    .withName("Map - dict").withTargetPlatform(Spark.platform())
 
                     .filter(record -> !record[4].equals("0") && !record[4].equals("1"))
                     .withSelectivity(0.99, 0.99, 0.99)
-                    .withName("Filter")
+                    .withName("Filter").withTargetPlatform(Spark.platform())
 
                     .sort(record -> new Integer(record[5]) * new Integer(record[6]))
                     .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
-                    .withName("Sort")
+                    .withName("Sort").withTargetPlatform(Java.platform())
 
                     .map(record -> {
                         List<String> result = new ArrayList<>(Arrays.asList(record));
@@ -102,7 +102,7 @@ public class RheemTest {
 //                        return result;
                     })
                     .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
-                    .withName("Map - toList")
+                    .withName("Map - toList").withTargetPlatform(Java.platform())
 
                     .reduceByKey(
                             Tuple2::getField0,
@@ -118,7 +118,7 @@ public class RheemTest {
                                 return new Tuple2<>(record1.getField0(), result);
                     })
                     .withCardinalityEstimator(new DefaultCardinalityEstimator(0.9, 1, false, in -> Math.round(0.01 * in[0])))
-                    .withName("ReduceByKey")
+                    .withName("ReduceByKey").withTargetPlatform(Java.platform())
 
                     .collect();
         }
